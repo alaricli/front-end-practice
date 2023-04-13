@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border: solid black;
+}
+
+.close-btn {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    background: transparent;
+    border-radius: 50%;
+}
+
+.modal-text {
+    padding-top: 10px;
+}
+
+.hidden {
+    display: none;
+}
