@@ -1,0 +1,13 @@
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.chart-container {
+    display: flex;
+    justify-content: center;
+}
+
+#chart {
+    background-color: #f2f2f2;
+}
